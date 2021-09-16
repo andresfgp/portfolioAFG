@@ -1,0 +1,29 @@
+.portfolio{
+    margin: 0px;
+    width: 50%;
+    background-size: 100% 500px;
+}
+
+.project{
+    border:1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.project-text{
+    width: 95%;
+}
+
+.project-image{
+    width: 95%;
+    height: 20%;
+}
+
+@media only screen and (max-width: 640px)
+{
+  .portfolio{
+    width: 100%;
+  }
+}

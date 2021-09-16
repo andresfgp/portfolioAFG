@@ -1,0 +1,35 @@
+.footer{
+    color: white;
+    background-color: #98a0a8;
+    align-items: center;  
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.footer__img{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(255,255,255,0.25);
+}
+
+.footer img{
+    height: 40px;
+    width: 40px;
+    margin: 10px 20px 10px 20px;
+}
+
+.footer img:hover{
+   transform: scale(1.4,1.4);
+}
+
+@media only screen and (max-width: 640px)
+{
+    .footer__img {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,39 @@
+.certificate {
+    overflow: scroll;
+    width: 100%;
+    position: relative;
+    margin: 0;
+  }
+  
+.certificate__container {
+  transition: 450ms -webkit-transform;
+  transition: 450ms transform;
+  transition: 450ms transform, 450ms -webkit-transform;
+  font-size: 0;
+  white-space: nowrap;
+  margin: 20px 0px;
+  padding:10px 10px 30px 10px;
+}
+
+.certificate__container:hover .certificate-item {
+  opacity: 0.3;
+}
+
+.certificate__container:hover .certificate-item:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 1;
+}
+
+.certificate::-webkit-scrollbar{
+  display: none;
+}
+
+@media only screen and (max-width: 640px)
+{
+  .certificate__container:hover .certificate-item:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}

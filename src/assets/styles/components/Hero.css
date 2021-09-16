@@ -1,0 +1,143 @@
+.hero{
+    padding:20px;
+    background-size: 100% 500px;
+    color: white;
+    border-top: 2px solid rgba(0,105,148,0.5);
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    flex-shrink: 0;
+    background-color:#006994;
+}
+
+.hero__text {
+    width: 530px;
+	margin: auto;
+	display: table;
+    align-self: center;
+    justify-self: center;
+}
+
+.hero__text-name{ 
+	position: relative; 
+	float: left;
+	background: #006994;
+	color: #fff;
+	font-size: 2.5em;
+    white-space: nowrap;
+}
+
+.hero__text-name span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #006994;
+    border-left: 2px solid transparent;
+    animation: escribir 3s steps(20) 2s 1 normal both,
+    blinkTextCursor 500ms steps(20) 1s 8 normal;
+}
+
+.hero__text-front{ 
+    position: relative; 
+    float: left;
+    background: #006994;
+    color: #fff;
+    font-size: 2.5em;
+    padding:0px;
+}
+.hero__text-front span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #006994;
+    border-left: 2px solid transparent;
+    animation: escribir 4s steps(20) 5s 1 normal both,
+    blinkTextCursor 500ms steps(20) 5s 8 normal;
+}
+
+.hero__text-ing{ 
+    position: relative; 
+    float: left;
+    background: #006994;
+    color: #fff;
+    font-size: 2.5em;
+    padding:0px;
+    white-space: nowrap;
+}
+.hero__text-ing span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #006994;
+    border-left: 2px solid transparent;
+    animation: escribir 4s steps(28) 9s normal both,
+    blinkTextCursor 500ms steps(28) 9s infinite normal;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-left-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-left-color: transparent;
+    }
+}
+
+.hero h1 strong{
+    color: #FF6347;
+}
+
+.hero__figure{
+    width: 280px;
+    align-self: center;
+    justify-self: center;
+}
+
+.hero img{
+    margin:20px;
+    width: 280px;
+    border: 2px solid none;
+    background-color: rgba(255,255,255,0.1) ;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 950px)
+{
+    .hero{
+        width: 100%;
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero__text {
+        width: 320px;
+    }
+    .hero__text-front{ 
+        font-size: 1.5em;
+    }
+    .hero__text-name{ 
+        font-size: 1.5em;
+    }
+    .hero__text-ing{ 
+        font-size: 1.5em;
+    }
+    .hero__figure{
+        width: 200px;
+    }
+
+    .hero img{
+        width: 200px;
+        border: 2px solid none;
+        background-color: rgba(255,255,255,0.1) ;
+        border-radius: 20px;
+   }
+}
