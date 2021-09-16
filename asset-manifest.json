@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolioAFG/static/css/main.553a69da.chunk.css",
+    "main.js": "/portfolioAFG/static/js/main.ee3003f0.chunk.js",
+    "main.js.map": "/portfolioAFG/static/js/main.ee3003f0.chunk.js.map",
+    "runtime-main.js": "/portfolioAFG/static/js/runtime-main.7bcbc4b5.js",
+    "runtime-main.js.map": "/portfolioAFG/static/js/runtime-main.7bcbc4b5.js.map",
+    "static/js/2.d2f05094.chunk.js": "/portfolioAFG/static/js/2.d2f05094.chunk.js",
+    "static/js/2.d2f05094.chunk.js.map": "/portfolioAFG/static/js/2.d2f05094.chunk.js.map",
+    "index.html": "/portfolioAFG/index.html",
+    "static/css/main.553a69da.chunk.css.map": "/portfolioAFG/static/css/main.553a69da.chunk.css.map",
+    "static/js/2.d2f05094.chunk.js.LICENSE.txt": "/portfolioAFG/static/js/2.d2f05094.chunk.js.LICENSE.txt",
+    "static/media/foto.63df86d1.png": "/portfolioAFG/static/media/foto.63df86d1.png",
+    "static/media/instagram.010da4ce.png": "/portfolioAFG/static/media/instagram.010da4ce.png",
+    "static/media/linkedin.e65fd24a.png": "/portfolioAFG/static/media/linkedin.e65fd24a.png",
+    "static/media/logo.835a4099.png": "/portfolioAFG/static/media/logo.835a4099.png",
+    "static/media/outlook.5e0bcbe2.png": "/portfolioAFG/static/media/outlook.5e0bcbe2.png",
+    "static/media/whatsapp.1dd8ca27.png": "/portfolioAFG/static/media/whatsapp.1dd8ca27.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bcbc4b5.js",
+    "static/js/2.d2f05094.chunk.js",
+    "static/css/main.553a69da.chunk.css",
+    "static/js/main.ee3003f0.chunk.js"
+  ]
+}
