@@ -1,29 +1,73 @@
 .portfolio{
     margin: 0px;
-    width: 50%;
+    width: 300px;
     background-size: 100% 500px;
-}
-
+  }
+  
 .project{
-    border:1px solid white;
+    background-color: rgba(255,255,255,0.2);
+    border:1px solid transparent;
     border-radius: 10px;
     margin: 10px;
     margin-bottom: 15px;
     padding: 20px;
+    display:grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 10px;
 }
 
 .project-text{
     width: 95%;
+    text-align: center;
+    padding:10px;
+    background-color:rgba(0,0,0,0.2);
+    border-radius: 15px;
+    color: white;
+    font-size:90%;
+    align-self: center;
+    justify-self: center;
 }
 
 .project-image{
-    width: 95%;
-    height: 20%;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0;
+}
+
+.project-imageJob{
+  align-self: center;
+  justify-self: center;
+  width: 150px;
+}
+
+.project-imageCountry{
+  align-self: center;
+  justify-self: center;
+  width: 50px;
+}
+
+.project-title{
+  color: black;
+}
+
+strong{ 
+  color: black;
+}
+.project-date_end{
+  text-align: left;
+}
+
+.project-date_start{
+  text-align: left;
+}
+.project-description{
+  text-align: left;
 }
 
 @media only screen and (max-width: 640px)
 {
   .portfolio{
-    width: 100%;
+    width: 300px;
   }
 }

@@ -2,13 +2,12 @@
     padding:20px;
     background-size: 100% 500px;
     color: white;
-    border-top: 2px solid rgba(0,105,148,0.5);
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     flex-shrink: 0;
-    background-color:#006994;
+    background:url(../../static/stars.svg),#1C3643;
 }
 
 .hero__text {
@@ -17,50 +16,31 @@
 	display: table;
     align-self: center;
     justify-self: center;
+    padding:10px;
+
 }
 
 .hero__text-name{ 
 	position: relative; 
 	float: left;
-	background: #006994;
-	color: #fff;
-	font-size: 2.5em;
+	background:transparent;
+	color: white;
+	font-size: 3em;
     white-space: nowrap;
-}
-
-.hero__text-name span {
-    position:absolute;
-    right:0;
-    width:0;
-    background: #006994;
-    border-left: 2px solid transparent;
-    animation: escribir 3s steps(20) 2s 1 normal both,
-    blinkTextCursor 500ms steps(20) 1s 8 normal;
 }
 
 .hero__text-front{ 
     position: relative; 
     float: left;
-    background: #006994;
-    color: #fff;
+    color: white;
     font-size: 2.5em;
     padding:0px;
-}
-.hero__text-front span {
-    position:absolute;
-    right:0;
-    width:0;
-    background: #006994;
-    border-left: 2px solid transparent;
-    animation: escribir 4s steps(20) 5s 1 normal both,
-    blinkTextCursor 500ms steps(20) 5s 8 normal;
 }
 
 .hero__text-ing{ 
     position: relative; 
     float: left;
-    background: #006994;
-    color: #fff;
+    color: white;
     font-size: 2.5em;
     padding:0px;
     white-space: nowrap;
@@ -69,10 +49,8 @@
     position:absolute;
     right:0;
     width:0;
-    background: #006994;
-    border-left: 2px solid transparent;
-    animation: escribir 4s steps(28) 9s normal both,
-    blinkTextCursor 500ms steps(28) 9s infinite normal;
+    border-left: 4px solid white;
+    animation:blinkTextCursor 500ms steps(28) infinite normal;
 }
 
 @keyframes escribir {
@@ -82,7 +60,7 @@
 
 @keyframes blinkTextCursor {
     from {
-          border-left-color: rgba(255, 255, 255, 0.75);
+          border-left-color: white;
     }
     to {
           border-left-color: transparent;
@@ -101,10 +79,11 @@
 
 .hero img{
     margin:20px;
-    width: 280px;
+    width: 250px;
     border: 2px solid none;
-    background-color: rgba(255,255,255,0.1) ;
-    border-radius: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding:10px;
 }
 
 @media only screen and (max-width: 950px)
@@ -132,12 +111,11 @@
     }
     .hero__figure{
         width: 200px;
+        display:flex;
+        justify-content: center;
     }
 
     .hero img{
         width: 200px;
-        border: 2px solid none;
-        background-color: rgba(255,255,255,0.1) ;
-        border-radius: 20px;
    }
 }

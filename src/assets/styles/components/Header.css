@@ -1,37 +1,30 @@
 .header{
     align-items: center;
-    background-color:#006a94e8;
     color: white;
     display: flex;
     height: 70px;
     justify-content: space-between;
     margin: 0px;
     width: 100%;
+    padding: 0.5rem 0;
+    background-color: #1C3643;
 }
 
 .header__logo {
     margin-left: 30px;
     width: 220px;
     height:35px;
-  }
+}
+
+.header>nav{
+    display: flex;
+}
 
 .header ul{
-    list-style:none;
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
-.header ul li{
-    margin: 20px;
-    height: 30px;
-    border: 2px solid none;
-    background-color: rgba(255,255,255,0.05);
-    border-radius: 10px;
-    white-space: nowrap;
-}
-.header ul li:hover{
-    background-color: rgba(255,255,255,0.25);
-}
 
 .header a{
     color: white;
@@ -49,12 +42,80 @@
     padding: 20px;
 }
 
+
+  
+.header__menu {
+
+height: 80px;
+display: flex;
+justify-content: flex-end;
+}
+  
+.header__menu ul {
+display: none;
+list-style: none;
+padding: 0px;
+position: absolute;
+width: 180px;
+margin: 70px 20px 0px 0px;
+border-radius: 10px;
+background-color: white;
+text-align: left;
+z-index: 1;
+}
+  
+.header__menu:hover ul, ul:hover {
+display: block;
+}
+
+  
+.header__menu li a {
+color: black;
+font-weight: bold;
+text-decoration: none;
+padding: 10px 0px 10px 10px;
+background-color:rgba(0,0,0,0.2);
+}
+
+.header__menu li a:hover {
+background-color: rgba(0,0,0,0.5);
+color: white;
+}
+  
+.header__menu--profile {
+width: 70px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+cursor: pointer;
+text-align: left;
+}
+  
+.header__menu--profile img {
+margin-right: 20px;
+width: 40px;
+}
+  
+.header__menu--search {
+width: 60px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+cursor: pointer;
+text-align: left;
+}
+    
+.header__menu--search img {
+width: 40px;
+}
+    
+  
+
 @media only screen and (max-width: 950px)
 {
-    .header ul{
-        width: 100%;
-        display: none;
-        /* display: flex; */
-        /* flex-direction: column; */
-    }
+    .header__logo {
+        margin-left: 15px;
+        width: 170px;
+        height:30px;
+      }
 }

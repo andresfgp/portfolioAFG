@@ -1,6 +1,6 @@
 .footer{
     color: white;
-    background-color: #98a0a8;
+    background-color: #1C3643;
     align-items: center;  
     justify-content: center;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    background-color: rgba(255,255,255,0.25);
+    /* background-color: rgba(255,255,255,0.25); */
 }
 
 .footer img{
