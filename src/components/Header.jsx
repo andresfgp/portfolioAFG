@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/styles/components/Header.css';
 import logo from '../assets/static/logo.png';
-import Search from './Search';
+// import Search from './Search';
 import menu from '../assets/static/menu.svg'
 import search from '../assets/static/search.svg'
 import cvAFG from '../assets/static/CV_AFG.pdf'
