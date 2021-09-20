@@ -13,6 +13,7 @@ import Contact from '../components/Contact';
 const Home = (props) => {
   const { searchResultPortfolio, searchResultCertificate, portfolio, certificate } = props;
 
+
   return (
     <div className='home'>
       {(searchResultPortfolio.length) > 0 && (
@@ -29,8 +30,8 @@ const Home = (props) => {
         </Categories>
       )}
       {(searchResultCertificate.length) > 0 && (
-        <Categories title='Certificates Search Information' isSearch>
-          <Certificate>
+        <Categories title='Certificates Search Information' isSearch >
+          <Certificate >
             {
               searchResultCertificate.map((item) => (
                 <CarouselItem
@@ -58,7 +59,7 @@ const Home = (props) => {
         </Categories>
       )}
       {certificate.length > 0 && (
-        <Categories title='More about my experience' id='certificates' isCertificate>
+        <Categories title='More about my experience' id='certificates' isCertificate >
           <Certificate>
             {
               certificate.sort((a, b) => { return b.year - a.year; }).map((item) => (

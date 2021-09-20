@@ -1,26 +1,38 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import '../assets/styles/components/CertificateItem.css';
+import Modal from '../Modal/index';
+import TodoInit from '../Modal/components/CertificateModal';
 
 const CertificateItem = (props) => {
-  const { url, image, title, description, urlCertificate } = props;
+  const [openModal,setOpenModal]=useState(false);
+  const { image, title, urlCertificate } = props;
+  // const { url, image, title, description, urlCertificate, setOpenModal } = props;
+  const handleOnclick=() => {
+    setOpenModal(true)
+  }
 
   return (
     <div className='certificate-item'>
       <article className='certificate-item__article'>
-        <a href={url}><img className='certificate-item__img' src={image} alt={title} /></a>
-        <h3 className='certificate-item__title'>{title}</h3>
-        <p className='certificate-item__description'>
-          Description:
-          {' '}
-          {description}
-        </p>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+        <div className='certificate-item__imgTitle'>
+          <div>
+            <img className='certificate-item__img' src={image} alt={title} /> 
+          </div>
+          <div>
+           <h3 className='certificate-item__title'>{title}</h3>
+          </div>
+        </div>
         <div className='certificate-item__url'>
-          <a href={urlCertificate}>Certificate</a>
+          <button type='button' onClick={handleOnclick}>Certificate</button>
         </div>
       </article>
+      {!!openModal && (
+      <Modal >
+          <TodoInit setOpenModal={setOpenModal} urlCertificate={urlCertificate}/>
+      </Modal>
+    )}
     </div>
   );
 };

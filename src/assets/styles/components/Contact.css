@@ -1,6 +1,6 @@
 .contact{
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,25 @@
     font-weight: bold;
     padding-bottom: 10px;
     color: white;
+}
+.contact__text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact__text>h3{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.contact__text>h3>a{
+    color: #00D8FF;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
 }
 
 .form-email{

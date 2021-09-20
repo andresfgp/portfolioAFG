@@ -8,6 +8,7 @@
     grid-auto-rows: minmax(100px, auto);
     flex-shrink: 0;
     background:url(../../static/stars.svg),#1C3643;
+    margin-top: 70px;
 }
 
 .hero__text {
