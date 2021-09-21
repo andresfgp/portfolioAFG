@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolioAFG/static/css/main.617ed610.chunk.css",
-    "main.js": "/portfolioAFG/static/js/main.68d8e2f4.chunk.js",
-    "main.js.map": "/portfolioAFG/static/js/main.68d8e2f4.chunk.js.map",
+    "main.css": "/portfolioAFG/static/css/main.e85ea243.chunk.css",
+    "main.js": "/portfolioAFG/static/js/main.f129b41b.chunk.js",
+    "main.js.map": "/portfolioAFG/static/js/main.f129b41b.chunk.js.map",
     "runtime-main.js": "/portfolioAFG/static/js/runtime-main.7bcbc4b5.js",
     "runtime-main.js.map": "/portfolioAFG/static/js/runtime-main.7bcbc4b5.js.map",
     "static/js/2.01737754.chunk.js": "/portfolioAFG/static/js/2.01737754.chunk.js",
     "static/js/2.01737754.chunk.js.map": "/portfolioAFG/static/js/2.01737754.chunk.js.map",
     "index.html": "/portfolioAFG/index.html",
-    "static/css/main.617ed610.chunk.css.map": "/portfolioAFG/static/css/main.617ed610.chunk.css.map",
+    "static/css/main.e85ea243.chunk.css.map": "/portfolioAFG/static/css/main.e85ea243.chunk.css.map",
     "static/js/2.01737754.chunk.js.LICENSE.txt": "/portfolioAFG/static/js/2.01737754.chunk.js.LICENSE.txt",
     "static/media/1.349085c7.png": "/portfolioAFG/static/media/1.349085c7.png",
     "static/media/10.031b81da.png": "/portfolioAFG/static/media/10.031b81da.png",
@@ -27,23 +27,29 @@
     "static/media/9.813bc512.png": "/portfolioAFG/static/media/9.813bc512.png",
     "static/media/CV_AFG.2813b97f.pdf": "/portfolioAFG/static/media/CV_AFG.2813b97f.pdf",
     "static/media/certificate.0bbaba93.svg": "/portfolioAFG/static/media/certificate.0bbaba93.svg",
+    "static/media/continental.b5f00f47.png": "/portfolioAFG/static/media/continental.b5f00f47.png",
     "static/media/download.31216213.svg": "/portfolioAFG/static/media/download.31216213.svg",
+    "static/media/electricaribe.eb7f02bd.png": "/portfolioAFG/static/media/electricaribe.eb7f02bd.png",
+    "static/media/epm.077db24f.png": "/portfolioAFG/static/media/epm.077db24f.png",
+    "static/media/essa.03cddf21.png": "/portfolioAFG/static/media/essa.03cddf21.png",
     "static/media/foto2.a79c6a29.png": "/portfolioAFG/static/media/foto2.a79c6a29.png",
     "static/media/instagram.010da4ce.png": "/portfolioAFG/static/media/instagram.010da4ce.png",
     "static/media/linkedin.e65fd24a.png": "/portfolioAFG/static/media/linkedin.e65fd24a.png",
     "static/media/logo.f85fffd7.png": "/portfolioAFG/static/media/logo.f85fffd7.png",
     "static/media/menu.10ead22c.svg": "/portfolioAFG/static/media/menu.10ead22c.svg",
+    "static/media/mrp.142eb272.png": "/portfolioAFG/static/media/mrp.142eb272.png",
     "static/media/outlook.5e0bcbe2.png": "/portfolioAFG/static/media/outlook.5e0bcbe2.png",
     "static/media/platzi.859f3184.png": "/portfolioAFG/static/media/platzi.859f3184.png",
+    "static/media/saesa.fecbda3a.png": "/portfolioAFG/static/media/saesa.fecbda3a.png",
     "static/media/Hero.css": "/portfolioAFG/static/media/stars.d4d2376b.svg",
-    "static/media/tesla.4b47740a.png": "/portfolioAFG/static/media/tesla.4b47740a.png",
+    "static/media/tesla.aefa7445.png": "/portfolioAFG/static/media/tesla.aefa7445.png",
     "static/media/usa.323e4557.png": "/portfolioAFG/static/media/usa.323e4557.png",
     "static/media/whatsapp.1dd8ca27.png": "/portfolioAFG/static/media/whatsapp.1dd8ca27.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7bcbc4b5.js",
     "static/js/2.01737754.chunk.js",
-    "static/css/main.617ed610.chunk.css",
-    "static/js/main.68d8e2f4.chunk.js"
+    "static/css/main.e85ea243.chunk.css",
+    "static/js/main.f129b41b.chunk.js"
   ]
 }
