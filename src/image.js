@@ -1,4 +1,10 @@
 import tesla from './assets/static/tesla.png'
+import epm from './assets/static/epm.png'
+import essa from './assets/static/essa.png'
+import electricaribe from './assets/static/electricaribe.png'
+import mrp from './assets/static/mrp.png'
+import saesa from './assets/static/saesa.png'
+import continental from './assets/static/continental.png'
 import platzi from './assets/static/platzi.png'
 import colombia from './assets/static/colombia.png'
 import usa from './assets/static/usa.png'
@@ -21,7 +27,13 @@ import diploma15 from './assets/static/certificate/15.png'
 
 const image={
     tesla,
+    epm,
+    essa,
+    electricaribe,
+    mrp,
+    saesa,
     platzi,
+    continental,
     colombia,
     usa,
     chile,

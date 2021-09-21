@@ -14,6 +14,8 @@
     display:grid;
     grid-template-columns: repeat(1, 2fr);
     gap: 10px;
+    width:280px;
+    height:320px;
 }
 
 .project-text{
@@ -39,6 +41,7 @@
   align-self: center;
   justify-self: center;
   width: 150px;
+  height:70px;
 }
 
 .project-imageCountry{
@@ -50,7 +53,7 @@
 }
 
 .project-title{
-  color: black;
+  color: white;
 }
 
 strong{ 
@@ -65,6 +68,7 @@ strong{
 }
 .project-description{
   text-align: left;
+  height:72px;
 }
 
 @media only screen and (max-width: 640px)
