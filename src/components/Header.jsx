@@ -2,8 +2,8 @@ import React from 'react';
 import '../assets/styles/components/Header.css';
 import logo from '../assets/static/logo.png';
 // import Search from './Search';
-import menu from '../assets/static/menu.svg'
-import download from '../assets/static/download.svg'
+import {ReactComponent as Menu} from '../assets/static/menu.svg';
+import {ReactComponent as Download} from '../assets/static/download.svg'
 import cvAFG from '../assets/static/CV_AFG.pdf'
 
 const Header = (props) => {
@@ -14,12 +14,12 @@ const Header = (props) => {
           {/* <Search isHome /> */}
           <div className="header__menu--download">
             <a href={cvAFG} download="cvAFG">
-              <img src={download} alt="download" />
+              <Download className="header__menu--downloadImg"/>
             </a>
           </div>
           <div className="header__menu">
             <div className="header__menu--profile">
-                <img src={menu} alt="menu" />
+                <Menu className="header__menu--profileImg"/>
             </div>
             <ul>
               <li>

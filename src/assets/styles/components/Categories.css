@@ -20,6 +20,7 @@
 }
 .isCertificate{
   background: #98a0a8;
+  padding-bottom:20px;
 }
 .isContact{
   background:  #1C3643 ;
@@ -33,7 +34,7 @@
 @media only screen and (max-width: 640px)
 {
   .categories{
-    padding:0px;
+    /* padding:0px; */
     display: flex;
     flex-direction: column;
   }

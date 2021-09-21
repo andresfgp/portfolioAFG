@@ -23,10 +23,17 @@ const Contact = (props) => {
 
   return (
     <section className='contact'>
-      <div>
+      <div className='contact__text'>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        <h3>Let's try something new! I'd love to hear from you.</h3>
-        <div className='contact__text'>
+        <div className='contact__text-name'>
+        <div>
+          <h3>Let's try something new!</h3>
+        </div>
+        <div className='contact__text-nameH3'>
+          <h3>I'd love to hear from you.</h3>
+        </div>
+        </div>
+        <div className='contact__text-email'>
           <h3>Email me at 
             <a href='mailto:andres.fgp@hotmail.com'>andres.fgp@hotmail.com</a>
           </h3>

@@ -4,10 +4,11 @@ import PropTypes from 'prop-types';
 import '../assets/styles/components/CertificateItem.css';
 import Modal from '../Modal/index';
 import TodoInit from '../Modal/components/CertificateModal';
+import {ReactComponent as Certificate} from '../assets/static/certificate.svg';
 
 const CertificateItem = (props) => {
   const [openModal,setOpenModal]=useState(false);
-  const { image, title, urlCertificate } = props;
+  const { image, title, urlCertificate, date } = props;
   // const { url, image, title, description, urlCertificate, setOpenModal } = props;
   const handleOnclick=() => {
     setOpenModal(true)
@@ -24,8 +25,11 @@ const CertificateItem = (props) => {
            <h3 className='certificate-item__title'>{title}</h3>
           </div>
         </div>
-        <div className='certificate-item__url'>
-          <button type='button' onClick={handleOnclick}>Certificate</button>
+        <div className='certificate-item__details'>
+          <div className='certificate-item__url'>
+            <button type='button' onClick={handleOnclick}><Certificate className='certificate-item__certificate' /></button>
+          </div>
+          <h3>Date: {date}</h3>
         </div>
       </article>
       {!!openModal && (

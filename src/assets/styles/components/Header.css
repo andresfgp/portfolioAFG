@@ -71,12 +71,12 @@ color: black;
 font-weight: bold;
 text-decoration: none;
 padding: 10px 0px 10px 10px;
-background-color:rgba(0,0,0,0.2);
 }
 
 .header__menu li a:hover {
 background-color: rgba(0,0,0,0.5);
 color: white;
+border-radius: 10px;
 }
   
 .header__menu--profile {
@@ -88,9 +88,14 @@ cursor: pointer;
 text-align: left;
 }
   
-.header__menu--profile img {
+.header__menu--profileImg {
 margin-right: 20px;
 width: 40px;
+color: white;
+}
+
+.header__menu--profileImg:hover {
+    color: #00D8FF;
 }
   
 .header__menu--download {
@@ -105,9 +110,14 @@ width: 40px;
     padding:0px;
 }
     
-.header__menu--download img {
+.header__menu--downloadImg {
 width: 40px;
+color: white;
 }
+.header__menu--downloadImg:hover {
+    color: #FF6347;
+}
+  
     
   
 
