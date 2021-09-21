@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolioAFG/static/css/main.981e122b.chunk.css",
+    "main.css": "/portfolioAFG/static/css/main.617ed610.chunk.css",
     "main.js": "/portfolioAFG/static/js/main.68d8e2f4.chunk.js",
     "main.js.map": "/portfolioAFG/static/js/main.68d8e2f4.chunk.js.map",
     "runtime-main.js": "/portfolioAFG/static/js/runtime-main.7bcbc4b5.js",
@@ -8,7 +8,7 @@
     "static/js/2.01737754.chunk.js": "/portfolioAFG/static/js/2.01737754.chunk.js",
     "static/js/2.01737754.chunk.js.map": "/portfolioAFG/static/js/2.01737754.chunk.js.map",
     "index.html": "/portfolioAFG/index.html",
-    "static/css/main.981e122b.chunk.css.map": "/portfolioAFG/static/css/main.981e122b.chunk.css.map",
+    "static/css/main.617ed610.chunk.css.map": "/portfolioAFG/static/css/main.617ed610.chunk.css.map",
     "static/js/2.01737754.chunk.js.LICENSE.txt": "/portfolioAFG/static/js/2.01737754.chunk.js.LICENSE.txt",
     "static/media/1.349085c7.png": "/portfolioAFG/static/media/1.349085c7.png",
     "static/media/10.031b81da.png": "/portfolioAFG/static/media/10.031b81da.png",
@@ -43,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.7bcbc4b5.js",
     "static/js/2.01737754.chunk.js",
-    "static/css/main.981e122b.chunk.css",
+    "static/css/main.617ed610.chunk.css",
     "static/js/main.68d8e2f4.chunk.js"
   ]
 }
